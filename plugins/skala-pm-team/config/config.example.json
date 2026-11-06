@@ -1,0 +1,19 @@
+{
+  "_readme": "Template only. `python3 bin/skala_bridge.py init` copies it to ~/.skala-workbuddy/config.json (mode 600). Never put real tokens in this file. The Skala key is added automatically by `skala_client.py login` and is not part of this template.",
+  "channel": "telegram",
+  "telegram": {
+    "bot_token": ""
+  },
+  "whatsapp": {
+    "phone_number_id": "",
+    "access_token": "",
+    "verify_token": "",
+    "app_secret": ""
+  },
+  "security": {
+    "allowed_chats": [
+      { "id": "", "name": "Your name", "role": "owner" }
+    ],
+    "max_messages_per_hour": 30
+  }
+}

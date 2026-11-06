@@ -1,0 +1,15 @@
+{
+  "name": "skala-expert-marketplace",
+  "description": "Skala Pro experts for Indonesian interior and construction contractors.",
+  "owner": {
+    "name": "Tim Skala Pro ID"
+  },
+  "plugins": [
+    {
+      "name": "skala-pm-team",
+      "description": "Accountable four-agent team: receipts to expenses, weighted S-curve progress, task assignment and new-project setup, with human approval before every write.",
+      "version": "2.1.0",
+      "source": "./plugins/skala-pm-team"
+    }
+  ]
+}

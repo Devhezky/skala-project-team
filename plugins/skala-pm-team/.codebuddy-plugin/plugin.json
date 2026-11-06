@@ -1,0 +1,148 @@
+{
+  "name": "skala-pm-team",
+  "version": "2.1.0",
+  "description": "Project-operations team for Indonesian contractors: receipts to expenses, weighted S-curve progress, tasks, new projects, and reading and managing clients, prospects, invoices, estimates, contracts and purchasing in Skala, with chat confirmation before every write.",
+  "author": {
+    "name": "Tim Skala Pro ID",
+    "email": "CHANGE-ME@skalapro.cloud"
+  },
+  "homepage": "https://skalapro.cloud",
+  "keywords": [
+    "construction",
+    "interior",
+    "contractor",
+    "project management",
+    "RAB",
+    "BOQ",
+    "S-curve",
+    "kurva s",
+    "expense",
+    "nota",
+    "kasbon",
+    "task assignment",
+    "Indonesia",
+    "Skala Pro",
+    "human-in-the-loop",
+    "audit log"
+  ],
+  "agents": [
+    "./agents/skala-pm-team-lead.md",
+    "./agents/skala-intake-clerk.md",
+    "./agents/skala-cost-schedule-analyst.md",
+    "./agents/skala-qa-reviewer.md"
+  ],
+  "skills": [
+    "./skills/skala-operations"
+  ],
+  "expertType": "team",
+  "agentName": "skala-pm-team-lead",
+  "teamInfo": {
+    "leadAgent": "skala-pm-team-lead",
+    "memberAgents": [
+      "skala-intake-clerk",
+      "skala-cost-schedule-analyst",
+      "skala-qa-reviewer"
+    ]
+  },
+  "displayName": {
+    "en": "Skala Project Team",
+    "zh": "Skala 项目运营团"
+  },
+  "profession": {
+    "en": "Skala Project Team",
+    "zh": "Skala 项目运营团"
+  },
+  "displayDescription": {
+    "en": "A four-agent team for Indonesian interior and construction contractors. Turns receipts, kasbon and site chats into checked expense rows, weighted S-curve progress, task plans and new-project setups, and lets you look up or manage clients, invoices, estimates, contracts and purchasing in Skala by chat. Every value cites its source, a QA reviewer checks drafts, and nothing is written to Skala or sent to anyone until you confirm the exact details. Documents are saved as drafts and never emailed to clients. Works without Skala via Excel.",
+    "zh": "印尼承包商项目运营专家团：记账、S曲线、任务、发票与合同管理，所有写入均需聊天确认。"
+  },
+  "avatar": "avatars/raka.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "en": "Hi Raka, let's start: check my setup and show me what you can do.",
+    "zh": "你好 Raka，开始吧：检查我的连接状态，并告诉我你能做什么。"
+  },
+  "plugin": "skala-pm-team",
+  "tags": [
+    {
+      "en": "Contractor Project Ops",
+      "zh": "承包商项目运营"
+    },
+    {
+      "en": "RAB & S-Curve",
+      "zh": "RAB 与 S 曲线"
+    },
+    {
+      "en": "Human Approval",
+      "zh": "人工审批"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Hi Raka, let's start: check my setup and show me what you can do.",
+      "zh": "你好 Raka，开始吧：检查我的连接状态，并告诉我你能做什么。"
+    },
+    {
+      "en": "I have a pile of receipts and a foreman's cash advance. Turn them into expense records I can approve.",
+      "zh": "我有一堆工地票据和工头预支款，帮我整理成可以审批的支出记录。"
+    },
+    {
+      "en": "Show me the unpaid invoices for my client Agus and draft the next termin invoice.",
+      "zh": "列出客户 Agus 的未付发票，并起草下一期付款发票。"
+    }
+  ],
+  "members": [
+    {
+      "id": "skala-pm-team-lead",
+      "name": {
+        "en": "Raka",
+        "zh": "Raka"
+      },
+      "profession": {
+        "en": "Project Operations Lead",
+        "zh": "项目运营主理人"
+      },
+      "avatar": "avatars/raka.png",
+      "role": "lead"
+    },
+    {
+      "id": "skala-intake-clerk",
+      "name": {
+        "en": "Sari",
+        "zh": "Sari"
+      },
+      "profession": {
+        "en": "Field Data Clerk",
+        "zh": "现场数据录入员"
+      },
+      "avatar": "avatars/sari.png",
+      "role": "member"
+    },
+    {
+      "id": "skala-cost-schedule-analyst",
+      "name": {
+        "en": "Dimas",
+        "zh": "Dimas"
+      },
+      "profession": {
+        "en": "Cost & Schedule Analyst",
+        "zh": "成本与进度分析师"
+      },
+      "avatar": "avatars/dimas.png",
+      "role": "member"
+    },
+    {
+      "id": "skala-qa-reviewer",
+      "name": {
+        "en": "Wulan",
+        "zh": "Wulan"
+      },
+      "profession": {
+        "en": "QA Reviewer",
+        "zh": "质量审核员"
+      },
+      "avatar": "avatars/wulan.png",
+      "role": "member"
+    }
+  ]
+}

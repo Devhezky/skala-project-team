@@ -1,0 +1,29 @@
+# Credentials must never be in this repository.
+# v2 keeps them in ~/.skala-workbuddy/, outside the plugin; these patterns are a second line of defence.
+**/config/config.json
+**/config/*.local.json
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/secrets*
+
+# Runtime data and logs
+**/data/
+**/output/
+**/*.log
+**/audit*.jsonl
+docs/audit-*.md
+
+# Private notes (publishing notes, internal docs)
+_private/
+PUBLISH.md
+
+# Third-party server code must not be published here
+**/perfex_saas/
+
+# System
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

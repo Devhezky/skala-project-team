@@ -1,0 +1,5 @@
+run_id,date,tester_role,method,start_time,end_time,minutes,issues_caught_of_6,errors_in_saved_data,questions_asked,notes
+M1,,admin/owner,manual (Skala or Excel),,,,,,,
+M2,,admin/owner,manual (Skala or Excel),,,,,,,
+A1,,admin/owner,agent (paste → plan card → answer questions → approve),,,,,,,
+A2,,admin/owner,agent (paste → plan card → answer questions → approve),,,,,,,
